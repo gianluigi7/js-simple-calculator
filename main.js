@@ -8,12 +8,20 @@ function NumeriDisplay(input) {
     result.value += input;
 }
 
-function OperatoriDisplay(input) {
-    result.value += input;
-    reset();
-}
-
-
 function reset() {
     result.value = '';
 }
+
+function OperatoriDisplay(input) {
+    result.value += input;
+    // reset();
+}
+
+function OperatoriDisplay(input) {
+    result.value += input;
+    // reset();
+} 
+function calcola() {
+    result.value = eval(result.value);
+}
+
